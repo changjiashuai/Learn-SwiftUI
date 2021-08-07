@@ -21,6 +21,11 @@ struct ContentView: View {
                     label: {
                         Text("PreferenceExample")
                     })
+                NavigationLink(
+                    destination: ScrollViewExample(),
+                    label: {
+                        Text("ScrollViewExample")
+                    })
             }
         }.navigationTitle("Learn-SwiftUI")
     }
