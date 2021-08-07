@@ -10,11 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(
-                destination: PreferenceExample(),
-                label: {
-                    Text("PreferenceExample")
-                })
+            VStack {
+                NavigationLink(
+                    destination: LabelExample(),
+                    label: {
+                        Text("LabelExample")
+                    })
+                NavigationLink(
+                    destination: PreferenceExample(),
+                    label: {
+                        Text("PreferenceExample")
+                    })
+            }
         }.navigationTitle("Learn-SwiftUI")
     }
 }

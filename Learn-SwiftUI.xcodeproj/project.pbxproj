@@ -13,9 +13,14 @@
 		6BD7617226B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7614826B69D210006D2A3 /* Learn_SwiftUIApp.swift */; };
 		6BD7617326B69D220006D2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7614926B69D210006D2A3 /* ContentView.swift */; };
 		6BD7617426B69D220006D2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7614926B69D210006D2A3 /* ContentView.swift */; };
-		6BD7617526B69D220006D2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7614A26B69D220006D2A3 /* Assets.xcassets */; };
-		6BD7617626B69D220006D2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7614A26B69D220006D2A3 /* Assets.xcassets */; };
 		6BD7618726B6A0070006D2A3 /* PreferenceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618626B6A0070006D2A3 /* PreferenceExample.swift */; };
+		6BD7618926BE93580006D2A3 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618826BE93580006D2A3 /* LabelExample.swift */; };
+		6BD7618B26BEA49D0006D2A3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618A26BEA49D0006D2A3 /* View+Extension.swift */; };
+		6BD761A526BEAC230006D2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD761A426BEAC230006D2A3 /* Assets.xcassets */; };
+		6BD761A626BEAC230006D2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD761A426BEAC230006D2A3 /* Assets.xcassets */; };
+		6BD761AC26BEAE730006D2A3 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618826BE93580006D2A3 /* LabelExample.swift */; };
+		6BD761AD26BEAE8D0006D2A3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618A26BEA49D0006D2A3 /* View+Extension.swift */; };
+		6BD761AE26BEAE9D0006D2A3 /* PreferenceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7618626B6A0070006D2A3 /* PreferenceExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 /* Begin PBXFileReference section */
 		6BD7614826B69D210006D2A3 /* Learn_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_SwiftUIApp.swift; sourceTree = "<group>"; };
 		6BD7614926B69D210006D2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6BD7614A26B69D220006D2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD7614F26B69D220006D2A3 /* Learn-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD7615226B69D220006D2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BD7615726B69D220006D2A3 /* Learn-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,10 @@
 		6BD7616E26B69D220006D2A3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6BD7617026B69D220006D2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BD7618626B6A0070006D2A3 /* PreferenceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceExample.swift; sourceTree = "<group>"; };
+		6BD7618826BE93580006D2A3 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
+		6BD7618A26BEA49D0006D2A3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		6BD7618C26BEA9C90006D2A3 /* Learn-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Learn-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		6BD761A426BEAC230006D2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 		6BD7614226B69D210006D2A3 = {
 			isa = PBXGroup;
 			children = (
+				6BD7618C26BEA9C90006D2A3 /* Learn-SwiftUI.entitlements */,
 				6BD7614726B69D210006D2A3 /* Shared */,
 				6BD7615126B69D220006D2A3 /* iOS */,
 				6BD7615826B69D220006D2A3 /* macOS */,
@@ -101,9 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				6BD7618526B69FE50006D2A3 /* PreferenceKey */,
+				6BD7618826BE93580006D2A3 /* LabelExample.swift */,
 				6BD7614826B69D210006D2A3 /* Learn_SwiftUIApp.swift */,
 				6BD7614926B69D210006D2A3 /* ContentView.swift */,
-				6BD7614A26B69D220006D2A3 /* Assets.xcassets */,
+				6BD761A426BEAC230006D2A3 /* Assets.xcassets */,
+				6BD7618A26BEA49D0006D2A3 /* View+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -286,7 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BD7617526B69D220006D2A3 /* Assets.xcassets in Resources */,
+				6BD761A526BEAC230006D2A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BD7617626B69D220006D2A3 /* Assets.xcassets in Resources */,
+				6BD761A626BEAC230006D2A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD7617326B69D220006D2A3 /* ContentView.swift in Sources */,
+				6BD7618926BE93580006D2A3 /* LabelExample.swift in Sources */,
+				6BD7618B26BEA49D0006D2A3 /* View+Extension.swift in Sources */,
 				6BD7618726B6A0070006D2A3 /* PreferenceExample.swift in Sources */,
 				6BD7617126B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */,
 			);
@@ -329,7 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD761AE26BEAE9D0006D2A3 /* PreferenceExample.swift in Sources */,
 				6BD7617426B69D220006D2A3 /* ContentView.swift in Sources */,
+				6BD761AC26BEAE730006D2A3 /* LabelExample.swift in Sources */,
+				6BD761AD26BEAE8D0006D2A3 /* View+Extension.swift in Sources */,
 				6BD7617226B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Learn-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F5P6V7KTJ7;
 				ENABLE_PREVIEWS = YES;
@@ -494,6 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.changjiashuai.Learn-SwiftUI";
 				PRODUCT_NAME = "Learn-SwiftUI";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -504,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Learn-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F5P6V7KTJ7;
 				ENABLE_PREVIEWS = YES;
@@ -516,6 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.changjiashuai.Learn-SwiftUI";
 				PRODUCT_NAME = "Learn-SwiftUI";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
