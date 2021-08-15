@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B54930926C80CC3007E65B0 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B54930826C80CC3007E65B0 /* ListExample.swift */; };
+		6B54930A26C80CC3007E65B0 /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B54930826C80CC3007E65B0 /* ListExample.swift */; };
+		6B5493D726C93F32007E65B0 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5493D626C93F32007E65B0 /* AlertManager.swift */; };
+		6B5493D826C93F32007E65B0 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5493D626C93F32007E65B0 /* AlertManager.swift */; };
 		6BD7616426B69D220006D2A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7616326B69D220006D2A3 /* Tests_iOS.swift */; };
 		6BD7616F26B69D220006D2A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7616E26B69D220006D2A3 /* Tests_macOS.swift */; };
 		6BD7617126B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7614826B69D210006D2A3 /* Learn_SwiftUIApp.swift */; };
@@ -43,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B54930826C80CC3007E65B0 /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		6B5493D626C93F32007E65B0 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		6BD7614826B69D210006D2A3 /* Learn_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_SwiftUIApp.swift; sourceTree = "<group>"; };
 		6BD7614926B69D210006D2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BD7614F26B69D220006D2A3 /* Learn-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +125,8 @@
 				6BD7614926B69D210006D2A3 /* ContentView.swift */,
 				6BD761A426BEAC230006D2A3 /* Assets.xcassets */,
 				6BD7618A26BEA49D0006D2A3 /* View+Extension.swift */,
+				6B54930826C80CC3007E65B0 /* ListExample.swift */,
+				6B5493D626C93F32007E65B0 /* AlertManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -334,10 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5493D726C93F32007E65B0 /* AlertManager.swift in Sources */,
 				6BD761B026BEBA650006D2A3 /* ScrollViewExample.swift in Sources */,
 				6BD7617326B69D220006D2A3 /* ContentView.swift in Sources */,
 				6BD7618926BE93580006D2A3 /* LabelExample.swift in Sources */,
 				6BD7618B26BEA49D0006D2A3 /* View+Extension.swift in Sources */,
+				6B54930926C80CC3007E65B0 /* ListExample.swift in Sources */,
 				6BD7618726B6A0070006D2A3 /* PreferenceExample.swift in Sources */,
 				6BD7617126B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */,
 			);
@@ -347,10 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5493D826C93F32007E65B0 /* AlertManager.swift in Sources */,
 				6BD761B126BEBA650006D2A3 /* ScrollViewExample.swift in Sources */,
 				6BD761AE26BEAE9D0006D2A3 /* PreferenceExample.swift in Sources */,
 				6BD7617426B69D220006D2A3 /* ContentView.swift in Sources */,
 				6BD761AC26BEAE730006D2A3 /* LabelExample.swift in Sources */,
+				6B54930A26C80CC3007E65B0 /* ListExample.swift in Sources */,
 				6BD761AD26BEAE8D0006D2A3 /* View+Extension.swift in Sources */,
 				6BD7617226B69D220006D2A3 /* Learn_SwiftUIApp.swift in Sources */,
 			);
